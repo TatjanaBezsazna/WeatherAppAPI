@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Local Weather App</title>
         <link rel="stylesheet" href="weather_css.css">
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Ubuntu+Condensed|Lancelot|Poiret+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> 
         <script src="weather_js.js"></script> 
     </head>
@@ -19,7 +19,7 @@
                         <div class="temp-row">
                             <ul>
                                 <li><div id="temp"></div></li>
-                                <li><a title="Units" href="#" class="units">°C</a></li>
+                                <li><a title="Change Units" href="#" class="units" onclick="changeUnits()">°C</a></li>
                             </ul>
                         </div>
                     <div id="wind" class = "info"></div>
